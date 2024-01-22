@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  
+  h1 {
+      text-align: center;
+      margin: 2%;
+  }
+  
+  section {
+      float: left;
+      margin: 0;    
+  }
+
+  #Ch, #Be, #Su {
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
+      text-align:center;
+      width: 40%;
+      float: right;
+      margin: 0;
+      background-color:darksalmon            
+  }
+   
+  
+  #Ch {
+      background-color:darksalmon            
+  }
+  
+  #Be {
+      background-color: crimson;
+      color: white;
+  }
+  
+              
+  #Su {
+      background-color: darkkhaki;  
+  }
+  
+  
+  #p1, #p2, #p3 {
+      clear: right;  
+      padding: 15px;
+      margin: 0;
+  }
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  
+  #s1, #s2, #s3 {
+       width: 30%; 
+       border: 1px solid black;
+       margin: 1%;    
+       background-color: rgba(192, 191, 191, 0.856);
+    }
+
+   #s1 {
+    margin-left: 3%;
+   }
+}
+
+/********** Tablet devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #s1, #s2{
+        width: 45%; 
+        border: 1px solid black;
+        margin: 1%;        
+        background-color: rgba(192, 191, 191, 0.856);
+    }
+
+    #s1 {
+        margin-left: 4%;
+       }
+
+    #s3 {
+        width: 92%;
+        border: 1px solid black;
+        margin-top: 1%;
+        margin-left: 4%;    
+        background-color: rgba(192, 191, 191, 0.856);
+    }
+
+    #Su {
+        width: 20%;
+    }
+}
+
+/********** Mobile devices only **********/ 
+@media (max-width: 767px) {
+    #s1, #s2, #s3{
+        width: 80%; 
+        border: 1px solid black;
+        margin: 1%;  
+        margin-left: 10%;  
+        background-color: rgba(192, 191, 191, 0.856);
+    }
+}
+
+
